@@ -4,8 +4,8 @@ import '../screens/landing_page.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 
-class NextPageButton extends StatelessWidget {
-  const NextPageButton({
+class FinalButton extends StatelessWidget {
+  const FinalButton({
     Key? key,
     required this.pageWidth,
     required this.pageHeight,
@@ -23,7 +23,7 @@ class NextPageButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(50),
         child: ElevatedButton(
           onPressed: () {
-            Navigator.push(
+            Navigator.pushReplacement(
               context,
               MaterialPageRoute(
                 builder: (context) => const LandingPage(),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/next_page_button.dart';
+import '../widgets/final_button.dart';
 
 import '../widgets/text_data.dart';
 import '../widgets/splash_img.dart';
@@ -110,7 +110,7 @@ class _BodyState extends State<Body> {
                       ),
                     ),
                     pageIndex == 2
-                        ? NextPageButton(
+                        ? FinalButton(
                             pageWidth: pageWidth, pageHeight: pageHeight)
                         : Padding(
                             padding:
