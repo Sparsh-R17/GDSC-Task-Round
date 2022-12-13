@@ -109,7 +109,7 @@ class _BodyState extends State<Body> {
                         ),
                       ),
                     ),
-                    pageIndex == 2
+                    pageIndex == (DUMMY_DATA.length - 1)
                         ? FinalButton(
                             pageWidth: pageWidth, pageHeight: pageHeight)
                         : Padding(
