@@ -1,7 +1,7 @@
 # GDSC TASK ROUND
 
 
-A new Flutter project.
+Task Round for android team selection.
 
 ## Getting Started
 
